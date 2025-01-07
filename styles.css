@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: AR CENA, sans-serif;
+  background-color: #000000;
+}
+
+#game-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.player {
+  width: 50px;
+  height: 50px;
+  background-color: #9c0500c5;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.npc {
+  width: 50px;
+  height: 50px;
+  background-color: #175b01;
+  border-radius: 50%;
+  position: absolute;
+}
