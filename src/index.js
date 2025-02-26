@@ -11,9 +11,9 @@ let gameWorld;
 let player;
 let npcs;
 
-function initializeGame() {
+function initializeGame(playerName = 'Default Player') {
   gameWorld = initializeGameWorld();
-  player = createPlayer();
+  player = createPlayer(playerName);
   npcs = createNPCs();
 }
 

@@ -20,6 +20,10 @@ This project is a chaotic action adventure role-playing game that leverages vari
    ```
    npm start
    ```
+5. Provide a player name (optional):
+   ```
+   npm start -- --playerName="Your Player Name"
+   ```
 
 ## Features and Technologies
 
@@ -30,3 +34,7 @@ This project is a chaotic action adventure role-playing game that leverages vari
 - **Player and NPC Management**: Control player and non-player characters with AI-driven behaviors.
 - **Game Loop**: A main game loop to handle game events and interactions.
 - **Utility Functions**: Various utility functions to support the game mechanics.
+
+## Notes
+
+- The game includes a default player name "Default Player" if no player name is provided.
